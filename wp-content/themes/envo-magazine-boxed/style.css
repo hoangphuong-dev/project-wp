@@ -1,0 +1,153 @@
+/*
+ Theme Name: Envo Magazine Boxed
+ Theme URI: https://envothemes.com/free-envo-magazine-boxed/
+ Description: Envo Magazine Boxed is a fast, clean, and modern-looking responsive magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Envo Magazine Boxed is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals, and any creative website. It is SEO friendly, WPML, translation and RTL ready. DEMO: https://envothemes.com/envo-magazine-boxed/
+ Author: EnvoThemes
+ Author URI: https://envothemes.com/
+ Template: envo-magazine
+ Version: 1.0.0
+ Requires PHP: 5.4
+ Tested up to: 5.6
+ License: GNU General Public License v3
+ License URI: http://www.gnu.org/licenses/gpl.html
+ Tags: one-column, two-columns, full-width-template, right-sidebar, custom-background, custom-menu, custom-header, editor-style, featured-images, translation-ready, custom-logo, threaded-comments, footer-widgets, rtl-language-support, theme-options, news, blog
+ Text Domain: envo-magazine-boxed
+*/
+
+.envo-magazine-boxed {
+    max-width: 1170px;
+    margin: 15px auto;
+    -webkit-box-shadow: 0 0 3px #cacaca;
+    -moz-box-shadow: 0 0 3px #cacaca;
+    box-shadow: 0 0 3px #cacaca;
+    position: relative;
+}
+a, a:active, a:hover, a:focus, #site-navigation, nav a, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #f27300;
+}
+#searchsubmit, .comments-meta:before, .cat-links a:before, .widget-title h3:before, li.home-icon.front_page_on a, li.home-icon.front_page_on a:hover, .nav > li > a:before, li.home-icon.front_page_on:before, .nav > li.active > a:after, .current-page-parent:after, nav.navigation.pagination .current:before, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: #f27300;
+}
+nav.navigation.pagination .current:before {
+    border-color: #f27300;
+}
+#top-navigation, .footer-credits {
+    border-top: 3px solid #f27300;
+}
+#site-navigation {
+    box-shadow: none;
+    border-bottom: 3px solid;
+    border-top: 1px solid #ddd;
+}
+.site-branding-logo {
+    float: none;
+}
+#site-navigation {
+    min-height: 50px;
+}
+.navbar-nav > li > a {
+    max-height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: none;
+}
+.nav > li.active > a:after, .current-page-parent:after {
+    bottom: 100%;
+}
+.navbar li.fa:before {
+    top: 17px;
+}
+.inner-wrapper.split-images {
+    margin-bottom: 0;
+}
+.split-images-news-section {
+    margin: -20px;
+}
+.split-slider, .split-slider .news-thumb, .split-slider .news-text-wrap {
+    transform: none;
+    -webkit-transform: none;
+}
+.posted-date:before, .cat-links a:before, .cat-links span:before, .tags-links span:before, .comments-meta:before, .widget-title h3:before {
+    -webkit-transform: skewX(0);
+    -ms-transform: skewX(0);
+    transform: skewX(0);
+}
+.posted-date, .cat-links a, .cat-links span, .tags-links span {
+    font-style: normal;
+    padding: 6px 15px;
+}
+.comments-meta {
+    font-style: normal;
+    top: 0;
+    left: -10px;
+}
+.widget {
+    padding: 20px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.19);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.19);
+    box-shadow: 0 0 3px #cacaca;
+}
+.widget-title h3 {
+    font-style: normal;
+    left: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.section-title a:after {
+    left: 0px;
+    right: 0px;
+    bottom: 4px;
+    -webkit-transform: skewX(0);
+    -ms-transform: skewX(0);
+    transform: skewX(0);
+}
+.section-title a {
+    padding: 5px 14px;
+    font-style: normal;
+    left: 0;
+    float: right;
+    margin-top: 20px;
+    font-size: 12px;
+}
+nav.navigation.pagination .nav-links a:before, nav.navigation.pagination .current:before {
+    -webkit-transform: skewX(0);
+    -ms-transform: skewX(0);
+    transform: skewX(0);
+}
+article {
+    clear: none;
+}
+article.blog-block.col-md-6:nth-of-type(2n-1), article.blog-block.col-md-4:nth-of-type(3n-2) {
+    clear: left;
+}
+.single-entry-summary a, .comment-body a, .textwidget a, .post-excerpt a, .entry-content a, .taxonomy-description a {
+    text-decoration: underline;
+}
+#site-navigation.shrink {
+    width: auto;
+    border-bottom: 3px solid;
+}
+#envo-magazine-two-column-news-2 {
+    margin: 0 0 30px 0;
+    padding: 20px 5px;
+}
+@media (min-width: 768px) {
+  .nav > li.active > a:after, .current-page-parent:after, .nav > li > a:before {
+      bottom: 100%;
+  }
+}
+@media (max-width: 767px) {
+  button.open-panel, button.open-panel:hover {
+      box-shadow: none;
+      top: 12px;
+  }
+  #site-navigation.shrink {
+      width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  #site-navigation.shrink {
+      width: 100%;
+  }
+}
