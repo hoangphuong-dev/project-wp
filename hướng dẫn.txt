@@ -1,0 +1,5 @@
+- để chạy được web này bạn phải thực hiện các thao tác sau : 
+1. cấu hình lại cho ĐB nếu lỗi : 
+vào mục User accounts : tạo một tài khoản mới 
+sửa lại thông tin của file config.php 
+Tên đường dẫn đã lưu lại trong bảng => phải là bkd01k11
